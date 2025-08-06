@@ -26,7 +26,7 @@ const JobList = () => {
   if (loading) return <div>Loading jobs…</div>;
   if (error) return <div>{error}</div>;
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 shadow-lg">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       <ul role="list" className="divide-y divide-gray-100">
         {jobs.map((job, idx) => (
           <li
